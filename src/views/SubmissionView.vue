@@ -128,7 +128,7 @@
     <!-- Important Dates Ends -->
     <!-- Submission Instructions -->
     <div id="instructions">
-      <h2>Submission Instructions</h2><hr>
+      <h2>Submission Instructions & Author Guidenlines</h2><hr>
       <div>
         <!-- Submission Formats -->
         <div class="instruction-contents">
@@ -190,18 +190,35 @@
         <div v-if="currentYear === '2023'">
           <div id="submission-site">
           <h2>Submission Site</h2><hr>
-          <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
+          <div class="instruction-contents">
+             <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
+          </div>
         </div>
         </div>
         <div v-else>
           <div id="awards">
           <h2>Submission Site</h2><hr>
-          <!-- <a href="https://cmt3.research.microsoft.com/MedAGI2024" target="_blank">https://cmt3.research.microsoft.com/MedAGI2024 </a> -->
-           <h2>TBD</h2>
+          <div class="instruction-contents">
+           <!-- <a href="https://cmt3.research.microsoft.com/MedAGI2024" target="_blank">https://cmt3.research.microsoft.com/MedAGI2024 </a> -->
+            The <a href="https://cmt3.research.microsoft.com/" target="_blank">Conference Management Toolkit (CMT)</a> will be used for submission. The submission site will be available soon.
+          </div>
         </div>
         </div>
         
         <!-- Submission Site End -->
+
+        <div id="how-to-submit"></div>
+          <h2>How To Submit</h2><hr>
+          <div class="instruction-contents">
+            Each author needs to have a CMT account and complete the domain of conflicts before the submission deadline. Each paper must be submitted with at least one research area selected from the CMT system. Then, the manuscript (mandatory) and supplementary material (optional) should be uploaded to the CMT system before the deadline.
+          </div>
+        <!-- CMT Acknowledgment -->
+        <div id="cmt-ack"></div>
+          <h2>CMT Acknowledgment</h2><hr>
+          <div class="instruction-contents">
+              The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+            </div>
+        <!-- CMT Acknowledgment End -->
       </div>
     </div>
 

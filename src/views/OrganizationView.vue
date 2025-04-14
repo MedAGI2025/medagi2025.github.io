@@ -90,7 +90,7 @@
           <div class="card">
             <img src="@/assets/profile/angelica.png" alt="" class="profile color-profile">
             <div class="name">Angelica I Aviles-Rivero</div>
-            <div class="belong">University of Cambrigde</div>
+            <div class="belong">Tsinghua University</div>
           </div>
           <div class="card">
           </div>
@@ -101,7 +101,44 @@
         </div>
       </div>
   </div>
+  <div v-if="currentYear === '2023'">
+    <div id="program-committee">
+			<h2>Program Committee</h2><hr>
+      <ul id="committee-list">
+        <li v-for="committee in pc" :id="committee['No']">
+          <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
+        </li>
+      </ul>
+		</div>
   </div>
+  <div v-else>
+    <div id="program-committee">
+			<h2>Program Committee</h2><hr>
+      <ul id="committee-list">
+        <li v-for="committee in pc2024" :id="committee['No']">
+          <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
+        </li>
+      </ul>
+		</div>
+  </div>
+  <div v-if="currentYear === '2023'">
+    <div id="student-contributor">
+      <h2>Student Contributor</h2><hr>
+        <ul id="contributor-list">
+          <li><strong>Byungju Chae</strong> (<span class="committee-belong">Korea University</span>) </li>
+        </ul>
+    </div>
+  </div>
+  <div v-else>
+    <div id="student-contributor">
+      <h2>Student Contributor</h2><hr>
+        <ul id="contributor-list">
+          <li><strong>Jongha Kim</strong> (<span class="committee-belong">Korea University</span>) </li>
+        </ul>
+    </div>
+  </div>
+  </div>
+  
 </template>
 
 <style scoped>
