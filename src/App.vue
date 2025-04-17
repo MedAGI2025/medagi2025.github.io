@@ -492,8 +492,8 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2024.jpg');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-image: url('./assets/intro-2025.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.jpg');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
