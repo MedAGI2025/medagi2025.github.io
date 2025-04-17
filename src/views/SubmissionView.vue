@@ -209,7 +209,7 @@
         <div id="how-to-submit"></div>
           <h2>How To Submit</h2><hr>
           <div class="instruction-contents">
-            The <a href="https://cmt3.research.microsoft.com/" target="_blank">Conference Management Toolkit (CMT)</a> is used for submission. Each author needs to have a CMT account and complete the domain of conflicts before the submission deadline. Each paper must be submitted with at least one research area selected from the CMT system. Then, the manuscript (mandatory) and supplementary material (optional) should be uploaded to the CMT system before the deadline.
+            The <a href="https://cmt3.research.microsoft.com/" target="_blank">Conference Management Toolkit (CMT)</a> is used for submission. To submit a paper, each author must create a CMT account and complete the conflict of interest disclosure before the submission deadline. Authors can choose to submit either a full-length paper or an extended abstract through the CMT system. Each submission must include at least one selected research area from the CMT system. Finally, the manuscript (mandatory) and any supplementary materials (optional) should be uploaded to the CMT system before the deadline.
           </div>
         <!-- CMT Acknowledgment -->
         <div id="cmt-ack"></div>
