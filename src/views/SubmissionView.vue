@@ -128,7 +128,7 @@
     <!-- Important Dates Ends -->
     <!-- Submission Instructions -->
     <div id="instructions">
-      <h2>Submission Instructions & Author Guidenlines</h2><hr>
+      <h2>Submission Instructions & Author Guidelines</h2><hr>
       <div>
         <!-- Submission Formats -->
         <div class="instruction-contents">
@@ -146,7 +146,7 @@
 
         <!-- Manuscript Template -->
         <div class="instruction-contents">
-          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI {{currentYear}} main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
+          <strong>Manuscript template | </strong> In general, the format requirements are the same as the MICCAI {{currentYear}} main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
         </div>
         <!-- Manuscript Template End -->
 
@@ -199,8 +199,7 @@
           <div id="awards">
           <h2>Submission Site</h2><hr>
           <div class="instruction-contents">
-           <!-- <a href="https://cmt3.research.microsoft.com/MedAGI2024" target="_blank">https://cmt3.research.microsoft.com/MedAGI2024 </a> -->
-            The <a href="https://cmt3.research.microsoft.com/" target="_blank">Conference Management Toolkit (CMT)</a> will be used for submission. The submission site will be available soon.
+           <a href="https://cmt3.research.microsoft.com/MedAGI2025/" target="_blank">https://cmt3.research.microsoft.com/MedAGI2025/ </a>
           </div>
         </div>
         </div>
@@ -210,7 +209,7 @@
         <div id="how-to-submit"></div>
           <h2>How To Submit</h2><hr>
           <div class="instruction-contents">
-            Each author needs to have a CMT account and complete the domain of conflicts before the submission deadline. Each paper must be submitted with at least one research area selected from the CMT system. Then, the manuscript (mandatory) and supplementary material (optional) should be uploaded to the CMT system before the deadline.
+            The <a href="https://cmt3.research.microsoft.com/" target="_blank">Conference Management Toolkit (CMT)</a> is used for submission. Each author needs to have a CMT account and complete the domain of conflicts before the submission deadline. Each paper must be submitted with at least one research area selected from the CMT system. Then, the manuscript (mandatory) and supplementary material (optional) should be uploaded to the CMT system before the deadline.
           </div>
         <!-- CMT Acknowledgment -->
         <div id="cmt-ack"></div>
