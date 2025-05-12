@@ -60,7 +60,8 @@
       <div class="main-title-deco"></div>
       <div class="description">
         Medical image analysis has traditionally relied on AI models trained on specific datasets, which often becomes challenging when transferred to data from different medical centers. This inherent limitation has inspired a growing interest in general medical AI, capable of seamlessly adapting to various medical scenarios, data modalities, and task formulations prevalent across hospitals and institutions. Drawing parallels from the computer vision and natural language processing domains, foundation models, such as large language and vision-language models like GPT, LLaMA, Gemini, stand out as quintessential general AI solutions. These models have demonstrated remarkable proficiency in a myriad of tasks owing to their massive training datasets and substantial model sizes. Yet, the translation of these successes to medical, namely the general medical AI, remains nascent. This workshop is designed to serve as a confluence of insights from the current landscape of medical AI and foundation models. It aims to foster discussions that will pave the way for the evolution of task-specific medical AI systems into more generalized frameworks capable of tackling a diverse range of tasks, datasets, and domains. In doing so, it aspires to act as a catalyst in synergizing the medical domain with cutting-edge advancements in machine learning, particularly in the realm of large-scale foundation models.
-    </div>
+        
+      </div>
     </div>
     <!-- End Workshop Description -->
 
