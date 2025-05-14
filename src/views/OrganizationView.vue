@@ -63,7 +63,7 @@
         <h2>Organizing Team</h2><hr>
         <div class="card-container">
           <div class="card">
-            <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
+            <img src="@/assets/profile/hyunwoo_kim.jpg" alt="" class="profile color-profile">
             <div class="name">Hyunwoo J. Kim</div>
             <div class="belong">KAIST</div>
           </div>
