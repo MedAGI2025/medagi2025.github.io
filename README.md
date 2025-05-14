@@ -1,8 +1,8 @@
 # MedAGI
-*2024 2nd International Workshop on Foundation Models for General Medical AI*
+*2025 3rd International Workshop on Foundation Models for General Medical AI*
 
 ## Project Description
-This Repository is made for MedAGI, International Workshop on Foundation Models for General Medical AI on MICCAI 2024.
+This Repository is made for MedAGI, International Workshop on Foundation Models for General Medical AI on MICCAI 2025.
 You can visit homepage at [here](http://medagi.github.io/).
 ## Project setup
 ### Download and install Node.js
