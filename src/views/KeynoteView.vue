@@ -26,12 +26,26 @@
             <br><b>Bio.</b> Dr. Jaewoo Kang is a Professor of Computer Science at Korea University (since 2006) and CEO of AIGEN Sciences (founded in 2021), where he leads AI-driven precision medicine and drug discovery efforts. His expertise is in biomedical AI, with a focus on advancing AI solutions for healthcare. He holds a Ph.D. in Computer Science from the University of Wisconsin-Madison (2003) and was previously an Assistant Professor at North Carolina State University (2003-2006). Dr. Kang has made significant contributions to biomedical AI, notably the development of BioBERT (over 7,000 citations). His research team has achieved remarkable success in global precision medicine and drug discovery challenges, securing seven wins in prestigious competitions including Dream Challenges, BioASQ, and BioCreative over the past eight years. At AIGEN Sciences, he is focused on integrating AI technologies with biomedical research to advance drug discovery and personalized medicine.
           </div>
 				</div>
+        <div class="keynote-box">
+					<div class="keynote-title">Hypergraph Computation for Medical Data</div>
+          <div class="profile-box">
+            <img src="@/assets/keynotes/Yue_Gao.jpg" class="profile" style="object-position: top;">
+            <div class="">
+              <div class="keynote-speaker">Dr. Yue Gao</div>
+              <div class="affiliation"><i>Tsinghua University, China</i></div>
+            </div>
+          </div>
+          <div class="speaker-bio">
+            <b>Abstract.</b> Structure data and related neural networks have attracted much attention in both research and industrial fields and become very hot topics in these years. It is noted that the world is far more complex than just pairwise connections. Hypergraph, as a generation of graph, is able to formulate such high-order correlations among the data and has been investigated in last decades. In this part, we first introduce the basic concepts and characteristics of hypergraphs. Next, focusing on hypergraph computation, we introduce hypergraph structural modelling, hypergraph structural evolution, and hypergraph neural network models. Finally, we introduce the application of hypergraph computation for medical data.
+            <br><b>Bio.</b> Yue Gao is an associate professor in School of Software, Tsinghua University, Beijing, China. His research falls in the field of artificial intelligence and hypergraph learning. He leads the iMoon laboratory. He has large experience in developing hypergraph neural networks and complex interaction networks with a wide range of real-world applications including computer vision and medical image analysis.
+          </div>
+				</div>
 				<div class="keynote-box">
 					<!-- <div class="keynote-title">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</div> -->
           <div class="profile-box">
             <img src="@/assets/keynotes/Jin_Ke.jpg" class="profile">
             <div>
-              <div class="keynote-speaker">Dr Jin Ke</div>
+              <div class="keynote-speaker">Dr. Jin Ke</div>
               <div class="affiliation"><i>Shanghai Jiao Tong University, China</i></div>
             </div>
           </div>
