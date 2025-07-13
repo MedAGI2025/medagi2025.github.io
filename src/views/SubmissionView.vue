@@ -110,11 +110,11 @@
           <div class="due-work">Review Due</div>
         </div>
         <div class="date-row">
-          <div class="dates">July 16 (Wed), 2025 <br> (23:59, Pacific Time) <br></div>
+          <div class="dates"><del>July 16 (Wed), 2025 </del> <br> July 23 (Wed), 2025 <br> (23:59, Pacific Time)</div>
           <div class="due-work">Final Notification</div>
         </div>
         <div class="date-row">
-          <div class="dates">July 30 (Mon), 2025 <br> (23:59, Pacific Time) <br></div>
+          <div class="dates"><del>July 30 (Mon), 2025 </del> <br> Aug 6 (Mon), 2025<br> (23:59, Pacific Time) <br></div>
           <div class="due-work">Camera-ready Due</div>
         </div>
         <div class="date-row">
