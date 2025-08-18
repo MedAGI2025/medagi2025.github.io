@@ -28,7 +28,7 @@
             MICCAI 2025 3rd International Workshop on<br> Foundation Models for General Medical AI
           </div>
           <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            Morning or afternoon, September 27, 2025 at Daejeon, Republic of Korea
+            September 27 (13:30-18:00 PM), 2025 at Daejeon, Republic of Korea
           </div>
         </div>
   </div>
