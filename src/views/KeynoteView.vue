@@ -41,7 +41,7 @@
           </div>
 				</div>
 				<div class="keynote-box">
-					<!-- <div class="keynote-title">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</div> -->
+					<div class="keynote-title">Why Human Clinical Expertise Remains Indispensable in AI Pathology Image Interpretation</div>
           <div class="profile-box">
             <img src="@/assets/keynotes/Jin_Ke.jpg" class="profile">
             <div>
@@ -50,7 +50,8 @@
             </div>
           </div>
           <div class="speaker-bio">
-            Jing Ke is a tenured associate professor at Shanghai Jiao Tong University and holds the academic title of Adjunct Senior Lecturer at the University of New South Wales. Her primary research focus is computer-assisted pathology image analysis, with more than fifty published papers in top journals and conferences, including IEEE Transactions on Medical Imaging (TMI), Medical Image Analysis (MedIA), and MICCAI. Also, Jing has extensive commercial experience in GPU technology, having worked with leading companies like AMD. She has also published over ten papers on computer architectures and parallel computing in renowned venues such as MICRO, DAC, and IPDPS., and authored a book on GPU architecture analysis.
+            <b>Abstract.</b> Despite significant advances in AI for pathology image analysis, human clinical expertise remains indispensable for ensuring accuracy, interpretability, and clinical applicability. This talk will examine the essential roles pathologists play in guiding end-to-end AI development, including how their expertise shapes dataset curation, mitigates algorithmic bias, and ensures that AI tools are aligned with real-world clinical decision-making.
+            <br><b>Bio.</b> Jing Ke is a tenured associate professor at Shanghai Jiao Tong University and holds the academic title of Adjunct Senior Lecturer at the University of New South Wales. Her primary research focus is computer-assisted pathology image analysis, with more than fifty published papers in top journals and conferences, including IEEE Transactions on Medical Imaging (TMI), Medical Image Analysis (MedIA), and MICCAI. Also, Jing has extensive commercial experience in GPU technology, having worked with leading companies like AMD. She has also published over ten papers on computer architectures and parallel computing in renowned venues such as MICRO, DAC, and IPDPS., and authored a book on GPU architecture analysis.
           </div>
 				</div>
 			</div>
