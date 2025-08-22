@@ -17,7 +17,7 @@
           <div class="profile-box">
             <img src="@/assets/keynotes/Prof_Jaewoo_Kang.jpg" class="profile" style="object-position: top;">
             <div class="">
-              <div class="keynote-speaker">Prof. Jaewoo Kang</div>
+              <div class="keynote-speaker">Dr. Jaewoo Kang</div>
               <div class="affiliation"><i>Korea University, Republic of Korea</i></div>
             </div>
           </div>
@@ -45,7 +45,7 @@
           <div class="profile-box">
             <img src="@/assets/keynotes/Jin_Ke.jpg" class="profile">
             <div>
-              <div class="keynote-speaker">Dr. Jin Ke</div>
+              <div class="keynote-speaker">Dr. Jing Ke</div>
               <div class="affiliation"><i>Shanghai Jiao Tong University, China</i></div>
             </div>
           </div>
