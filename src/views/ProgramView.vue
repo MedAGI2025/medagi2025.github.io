@@ -6,7 +6,139 @@
           <div class="main-title-deco"></div>
       </div>
       <!-- Main Title End -->
-       <h2>TBD</h2>
+       <!-- Program Schedules -->
+      <div id="schedule">
+        <h2>Schedule</h2><hr>
+        <table class="table">
+          <tr>
+            <td class="schedule-time">13:30 - 13:40</td>
+            <td class="schedule-name">Opening Remarks</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">13:40 - 14:10</td>
+            <td class="schedule-name">
+              Keynote 1: Prof. Jing Ke, Shanghai Jiao Tong University <!-- [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/20231013_MICCAI_Workshop_Slides.pdf">slide</a>] -->
+              <span class="oral-authors">Why Human Clinical Expertise Remains Indispensable in AI Pathology Image Interpretation</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="schedule-time">14:10 - 14:50</td>
+            <td class="schedule-name">Oral Session 1</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">14:50 - 16:10</td>
+            <td class="schedule-name">Poster Session  / Coffee Break (15:30 - 16:00)</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">16:10 - 16:40</td>
+            <td class="schedule-name">
+              Keynote 2: Prof. Yue Gao, Tsinghua University <!-- [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>] -->
+              <span class="oral-authors">Hypergraph Computation for Medical Data</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="schedule-time">16:40 - 17:10</td>
+            <td class="schedule-name">
+              Keynote 3: Prof. Jaewoo Kang, Korea University / AIGEN Sciences Inc. <!-- [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>] -->
+              <span class="oral-authors">AI-driven Drug Discovery in the LLM Era</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="schedule-time">17:10 - 17:50</td>
+            <td class="schedule-name">Oral Session 2</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">17:50 - 18:00</td>
+            <td class="schedule-name">Closing / Awards</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Oral Sessions -->
+      <div id="oral">
+        <h2>Oral Sessions</h2><hr>
+        <table id="oral-table" class="table">
+          <tr v-for="(item, index) in oral1" :key="index">
+            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:10 - 14:50)</td>
+              <td class="oral-content">
+                [{{item['id']}}] {{item['name']}}
+                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr>
+          <tr v-for="(item, index) in oral2" :key="index">
+              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(17:10 - 17:50)</td>
+              <td class="oral-content">
+                [{{item['id']}}] {{item['name']}}
+                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr>
+        </table>
+
+        <table id="oral-table-m" class="table">
+          <tr class="sticky-header">
+            <td class="oral-time-m">Oral1 (14:10 - 14:50)</td>
+          </tr>
+          
+          <tr v-for="(item, index) in oral1" :key="index">
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr>
+
+          <tr class="sticky-header">
+            <td class="oral-time-m">Oral2 (17:10 - 17:50)</td>
+          </tr>
+          
+          <tr v-for="(item, index) in oral2" :key="index">
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr>
+        </table>
+      </div>
+      <!-- Oral Sessions End -->
+
+
+      <div id="poster">
+        <h2>Poster Sessions (14:50 - 16:10)</h2><hr>
+        <table class="table">
+          <tr>
+            <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
+          </tr>
+          <tr v-for="(item, index) in paper" :key="index">
+            <td class="poster-id">{{item['id']}} </td>
+            <td class="poster-name">
+              {{item['name']}} 
+              <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+              <!-- <span v-if="item['posters']===true">
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+              </span> -->
+              
+              <span class="oral-authors">{{ item['authors'] }}</span></td>
+          </tr>
+        </table>
+        
+        <table class="table">
+          <tr>
+            <td colspan="2" class="poster-title sticky-header">Extended Abstracts</td>
+          </tr>
+          
+          <tr v-for="(item, index) in abstract" :key="index">
+            <td class="oral-content">{{item['id']}}</td>
+            <td class="oral-content">{{item['name']}}
+              <!-- <span v-if="item['posters']===true">
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+              </span> -->
+              <span class="oral-authors">{{ item['authors'] }}</span></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </template>
   
@@ -405,8 +537,7 @@
   </style>
   
 <script>
-import program from "@/assets/info/program.json";
-import program_2024 from "@/assets/info/program_2024.json";
+import program from "@/assets/info/program_2025.json";
 
 export default {
   computed: {
@@ -421,14 +552,10 @@ export default {
       oral2 : program[0]['oral2'],
       paper : program[0]['full_length'],
       abstract : program[0]['abstract'],
-      oral1_2024 : program_2024[0]['oral1'],
-      oral2_2024 : program_2024[0]['oral2'],
-      paper_2024 : program_2024[0]['full_length'],
-      abstract_2024 : program_2024[0]['abstract'],
     }
   },
   mounted() {
-    console.log('paper_2024:', this.paper_2024);
+    console.log('paper:', this.paper);
   },
   methods: {
       fetchData() {
@@ -441,9 +568,9 @@ export default {
       }
     },
 
-    getPaperUrl(id) {
-      return require(`@/assets/papers/${id}.pdf`).default;
-    }
+    // getPaperUrl(id) {
+    //   return require(`@/assets/papers/${id}.pdf`).default;
+    // }
   },
   created(){
     this.fetchData();
