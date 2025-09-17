@@ -125,13 +125,13 @@
                 "name": "Unified Foundation Model Framework for Bidirectional Generation of Medical Images and Findings from Mixed Lung CT and Cytological Data",
                 "authors": "Atsushi Teramoto, Maiko Nagao, Kaito Urata, Masashi Kondo, Kazuyoshi Imaizumi, Yuka Kiriyama, Tetsuya Tsukamoto, Hiroshi Fujita",
                 "id": "EA1",
-                "posters" : true
+                "posters" : false
             },
             {
                 "name": "Unsupervised Image-Based Prompting for Lesion Matching Across Mammography Views",
                 "authors": "Santiago Nicolas Pires, Amir Hadjifaradji, Jaap Kroes, Joep Stevens, Ana San Roman Gaitero, Nico Karssemeijer, Alejandro Rodriguez Ruiz",
                 "id": "EA2",
-                "posters" : false
+                "posters" : true
             },
             {
                 "name": "Benchmarking Robustness of Vision Foundation Models for Prostate Cancer Relapse Prediction",
