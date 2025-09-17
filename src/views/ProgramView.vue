@@ -62,9 +62,9 @@
             <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:10 - 14:50)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
                 </span> 
                 <span class="oral-authors" v-html="item['authors']"></span>
                 
@@ -74,9 +74,9 @@
               <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(17:10 - 17:50)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
                 </span> 
                 <span class="oral-authors" v-html="item['authors']"></span>
                 
@@ -84,39 +84,7 @@
           </tr>
         </table>
 
-        <table id="oral-table-m" class="table">
-          <tr class="sticky-header">
-            <td class="oral-time-m">Oral1 (14:10 - 14:50)</td>
-          </tr>
-          
-          <tr v-for="(item, index) in oral1" :key="index">
-              <td class="oral-content">
-                {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-                <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
-                </span> 
-                <span class="oral-authors" v-html="item['authors']"></span>
-                
-              </td>
-          </tr>
-
-          <tr class="sticky-header">
-            <td class="oral-time-m">Oral2 (17:10 - 17:50)</td>
-          </tr>
-          
-          <tr v-for="(item, index) in oral2" :key="index">
-              <td class="oral-content">
-                {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-                <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
-                </span>
-                <span class="oral-authors" v-html="item['authors']"></span>
-                 
-              </td>
-          </tr>
-        </table>
+        
       </div>
       <!-- Oral Sessions End -->
 
@@ -131,9 +99,9 @@
             <td class="poster-id">{{item['id']}} </td>
             <td class="poster-name">
               {{item['name']}} 
-              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               </span> 
               
               <span class="oral-authors">{{ item['authors'] }}</span></td>
@@ -148,9 +116,9 @@
           <tr v-for="(item, index) in abstract" :key="index">
             <td class="oral-content">{{item['id']}}</td>
             <td class="oral-content">{{item['name']}}
-              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
               <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               </span>
               <span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>

@@ -23,7 +23,7 @@
                 "name": "Improving Medical Visual Instruction Tuning with Labeled Datasets",
                 "authors": "Amin Dada, Amanda Butler, Constantin Seibold, Osman Alperen Koras, Julius Keyl, Aokun Chen, Cheng Peng, Alexander Brehmer, Kaleb Smith, Jiang Bian, Yonghui Wu, Jens Kleesiek",
                 "id": "O4",
-                "posters" : true
+                "posters" : false
                 }
             ],
         "oral2":[
@@ -37,19 +37,19 @@
                 "name": "EndoTracker: Robustly Tracking Any Point in Endoscopic Surgical Scene",
                 "authors": "Lalithkumar Seenivasan, Joanna Cheng, Jin Fang, Jin Bai, Roger D. Soberanis-Mukul, Jan Emily Mangulabnan, S. Swaroop Vedula, Masaru Ishii, Gregory Hager, Russell H. Taylor, Mathias Unberath",
                 "id": "O6",
-                "posters" : true
+                "posters" : false
                 },
                 {
                 "name": "Temporally-Constrained Video Reasoning Segmentation and Automated Benchmark Construction",
                 "authors": "Yiqing Shen, Chenjia Li, Chenxiao Fan, Mathias Unberath",
                 "id": "O7",
-                "posters" : true
+                "posters" : false
                 },
                 {
                 "name": "Test Time Adaptation of Medical Vision-Language Models",
                 "authors": "Fereshteh Shakeri, Ghassen Baklouti, Julio Silva-Rodríguez, Maxime Zanella, Jose Dolz, Houda Bahig, Ismail Ben Ayed",
                 "id": "O8",
-                "posters" : true
+                "posters" : false
             }
         ],
         "full_length" : [
@@ -63,7 +63,7 @@
                 "name": "BioVFM-21M: Benchmarking and Scaling Self-Supervised Vision Foundation Models for Biomedical Image Analysis",
                 "authors": "Jiarun Liu, Hong-Yu Zhou, Weijian Huang, Hao Yang, Dongning Song, Tao Tan, Yong Liang, Shanshan Wang",
                 "id": "P2",
-                "posters" : true
+                "posters" : false
                 },
                 {
                 "name": "From Pathology to Radiology: Evaluating the Applicability of Pathology Foundation Models",
@@ -81,7 +81,7 @@
                 "name": "Taming Stable Diffusion for Computed Tomography Blind Super-Resolution",
                 "authors": "Chunlei Li, Yilei Shi, Haoxi Hu, Jingliang Hu, Xiao Xiang Zhu, Lichao Mou",
                 "id": "P5",
-                "posters" : true
+                "posters" : false
                 },
                 {
                 "name": "RadiSimCLIP: A Radiology Vision-Language Model Pretrained on Simulated Radiologist Learning Dataset for Zero-Shot Medical Image Understanding",
@@ -93,13 +93,13 @@
                 "name": "The Data Behind the Model: Gaps and Opportunities for Foundation Models in Brain Imaging",
                 "authors": "Salah Ghamizi, Georgia Kanli, Magali Perquin, Olivier Keunen",
                 "id": "P7",
-                "posters" : true
+                "posters" : false
                 },
                 {
                 "name": "LGE Scar Quantification Using Foundation Models for Cardiac Disease Classification",
                 "authors": "Athira Jacob, Puneet Sharma, Daniel Rueckert",
                 "id": "P8",
-                "posters" : true
+                "posters" : false
                 },
                 {
                 "name": "Beyond Broad Applications: Can Pathology Foundation Models Adapt to Hematopathology?",
@@ -117,7 +117,7 @@
                 "name": "Random Direct Preference Optimization for Radiography Report Generation",
                 "authors": "Valentin Samokhin, Boris Shirokikh, Mikhail Goncharov, Dmitriy Umerenkov, Maksim Bobrin, Ivan Oseledets, Dmitry Dylov, Mikhail Belyaev",
                 "id": "P11",
-                "posters" : true
+                "posters" : false
                 }
         ],
         "abstract" : [
@@ -131,13 +131,13 @@
                 "name": "Unsupervised Image-Based Prompting for Lesion Matching Across Mammography Views",
                 "authors": "Santiago Nicolas Pires, Amir Hadjifaradji, Jaap Kroes, Joep Stevens, Ana San Roman Gaitero, Nico Karssemeijer, Alejandro Rodriguez Ruiz",
                 "id": "EA2",
-                "posters" : true
+                "posters" : false
             },
             {
                 "name": "Benchmarking Robustness of Vision Foundation Models for Prostate Cancer Relapse Prediction",
                 "authors": "Anja Witte, Patrick Fuhlert, Jens Lohmann, Jan Baumbach, Guido Sauter, Marina Zimmermann, Stefan Bonn",
                 "id": "EA3",
-                "posters" : true
+                "posters" : false
             }
                 
         ]
