@@ -43,7 +43,7 @@
                 "name": "Temporally-Constrained Video Reasoning Segmentation and Automated Benchmark Construction",
                 "authors": "Yiqing Shen, Chenjia Li, Chenxiao Fan, Mathias Unberath",
                 "id": "O7",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "Test Time Adaptation of Medical Vision-Language Models",
@@ -93,7 +93,7 @@
                 "name": "The Data Behind the Model: Gaps and Opportunities for Foundation Models in Brain Imaging",
                 "authors": "Salah Ghamizi, Georgia Kanli, Magali Perquin, Olivier Keunen",
                 "id": "P7",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "LGE Scar Quantification Using Foundation Models for Cardiac Disease Classification",
