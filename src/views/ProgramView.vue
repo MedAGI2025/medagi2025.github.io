@@ -22,29 +22,29 @@
             </td>
           </tr>
           <tr>
-            <td class="schedule-time">14:10 - 14:50</td>
+            <td class="schedule-time">14:10 - 15:00</td>
             <td class="schedule-name">Oral Session 1</td>
           </tr>
           <tr>
-            <td class="schedule-time">14:50 - 16:10</td>
+            <td class="schedule-time">15:00 - 16:30</td>
             <td class="schedule-name">Poster Session  / Coffee Break (15:30 - 16:00)</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td class="schedule-time">16:10 - 16:40</td>
             <td class="schedule-name">
-              Keynote 2: Prof. Yue Gao, Tsinghua University <!-- [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>] -->
+              Keynote 2: Prof. Yue Gao, Tsinghua University  [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>]
               <span class="oral-authors">Hypergraph Computation for Medical Data</span>
             </td>
-          </tr>
+          </tr> -->
           <tr>
-            <td class="schedule-time">16:40 - 17:10</td>
+            <td class="schedule-time">16:30 - 17:00</td>
             <td class="schedule-name">
-              Keynote 3: Prof. Jaewoo Kang, Korea University / AIGEN Sciences Inc. <!-- [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>] -->
+              Keynote 2: Prof. Jaewoo Kang, Korea University / AIGEN Sciences Inc. <!-- [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>] -->
               <span class="oral-authors">AI-driven Drug Discovery in the LLM Era</span>
             </td>
           </tr>
           <tr>
-            <td class="schedule-time">17:10 - 17:50</td>
+            <td class="schedule-time">17:00 - 17:50</td>
             <td class="schedule-name">Oral Session 2</td>
           </tr>
           <tr>
@@ -59,7 +59,7 @@
         <h2>Oral Sessions</h2><hr>
         <table id="oral-table" class="table">
           <tr v-for="(item, index) in oral1" :key="index">
-            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:10 - 14:50)</td>
+            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:10 - 15:00)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
@@ -71,7 +71,7 @@
               </td>
           </tr>
           <tr v-for="(item, index) in oral2" :key="index">
-              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(17:10 - 17:50)</td>
+              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(17:00 - 17:50)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
@@ -90,7 +90,7 @@
 
 
       <div id="poster">
-        <h2>Poster Sessions (14:50 - 16:10)</h2><hr>
+        <h2>Poster Sessions (15:00 - 16:30)</h2><hr>
         <table class="table">
           <tr>
             <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
