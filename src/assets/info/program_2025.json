@@ -81,7 +81,7 @@
                 "name": "Taming Stable Diffusion for Computed Tomography Blind Super-Resolution",
                 "authors": "Chunlei Li, Yilei Shi, Haoxi Hu, Jingliang Hu, Xiao Xiang Zhu, Lichao Mou",
                 "id": "P5",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "RadiSimCLIP: A Radiology Vision-Language Model Pretrained on Simulated Radiologist Learning Dataset for Zero-Shot Medical Image Understanding",
