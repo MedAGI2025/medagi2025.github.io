@@ -1,48 +1,38 @@
 <template>
   <div id="home">
-    <!-- <div v-if="currentYear === '2023'">
-      <div id="closing">
-        <div id="thankyou-message">
-          <span id="thankyou">MedAGI 2023 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
-          <img id="cover-img" src="@/assets/cover.jpeg">
-          <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
-          <div id="award-box">
-            <h2>Best Paper Award</h2>
-            <div id="best-paper">
-              <img src='@/assets/award/Photo_BestPaper.jpg' alt="" class="photo">
-              <img src='@/assets/award/Award_BestPaper.jpg' alt="" class="award">
-            </div>
-            <h2>Honorable Mention</h2>
-            <div id="honorable-mention">
-              <img src='@/assets/award/Photo_HonorableMention.jpg' alt="" class="photo">
-              <img src='@/assets/award/Award_HonorableMention.jpg' alt="" class="award">
-            </div>
+    <div id="closing">
+      <div id="thankyou-message">
+        <span id="thankyou">MedAGI 2025 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
+        <img src='@/assets/photo/1.jpg' alt="" class="photo">
+        <img src='@/assets/photo/19.jpg' alt="" class="photo">
+        <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
+        <div id="award-box">
+          <h2>Keynote Talks</h2>
+          <div id="keynote-talks">
+            <img src='@/assets/photo/keynote1_0.jpg' alt="" class="photo">
+            <img src='@/assets/photo/keynote1_1.jpg' alt="" class="photo">
+          </div>
+          <div id="keynote-talks">
+            <img src='@/assets/photo/keynote2_0.jpg' alt="" class="photo">
+            <img src='@/assets/photo/keynote2_1.jpg' alt="" class="photo">
+          </div>
+          <h2>Best Paper Award</h2>
+          <div id="best-paper">
+            <img src='@/assets/award/BestPaper.jpeg' alt="" class="photo">
+            <img src='@/assets/award/Award_BestPaper.jpeg' alt="" class="award">
+          </div>
+          <h2>Honorable Mentions (Two Papers)</h2>
+          <div id="honorable-mention">
+            <img src='@/assets/award/HonorableMention1.jpeg' alt="" class="photo">
+            <img src='@/assets/award/Award_HonorableMention1.jpeg' alt="" class="award">
+          </div>
+          <div id="honorable-mention">
+            <img src='@/assets/award/HonorableMention2.jpeg' alt="" class="photo">
+            <img src='@/assets/award/Award_HonorableMention2.jpeg' alt="" class="award">
           </div>
         </div>
-      </div>  
-    </div>
-    <div v-else>
-      <div id="closing">
-        <div id="thankyou-message">
-          <span id="thankyou">MedAGI 2024 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
-          <img src='@/assets/photo_2024/photo9.jpg' alt="" class="photo">
-          <img src='@/assets/photo_2024/photo6.jpg' alt="" class="photo">
-          <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
-          <div id="award-box">
-            <h2>Keynote Talks</h2>
-            <div id="keynote-talks">
-              <img src='@/assets/photo_2024/photo5.jpg' alt="" class="photo">
-              <img src='@/assets/photo_2024/photo7.jpg' alt="" class="photo">
-            </div>
-            <h2>Best Paper & Honorable Mention Paper</h2>
-            <div id="best-paper">
-              <img src='@/assets/photo_2024/best_paper.jpg' alt="" class="photo">
-              <img src='@/assets/photo_2024/honorable_mention.jpg' alt="" class="photo">
-            </div>
-          </div>
-        </div>
-      </div>  
-    </div> -->
+      </div>
+    </div> 
     <!-- Workshop Description -->
     <div v-if="currentYear === '2023'">
     <div id="workshop-description">

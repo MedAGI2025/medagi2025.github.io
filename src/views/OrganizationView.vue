@@ -5,60 +5,6 @@
     	<div class="main-title-deco"></div>
     </div>
 		
-    <div v-if="currentYear === '2023'">
-    <!-- 2023 -->
-      <div id="organizing-team">
-        <h2>Organizing Team</h2><hr>
-        <div class="card-container">
-          <div class="card">
-            <img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
-            <div class="name">Won-Ki Jeong</div>
-            <div class="belong">Korea University</div>
-          </div>
-          <div class="card">
-            <img src="@/assets/profile/Yiqing_Shen.jpg" alt="" class="profile">
-            <div class="name">Yiqing Shen</div>
-            <div class="belong">Johns Hopkins University</div>
-          </div>
-          <div class="card">
-            <img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
-            <div class="name">Zhongying Deng</div>
-            <div class="belong">University of Surrey</div>
-          </div>
-          <div class="card">
-            <img src="@/assets/profile/edward_choi.png" alt="" class="profile">
-            <div class="name">Edward Choi</div>
-            <div class="belong">KAIST</div>
-          </div>
-          <div class="card">
-            <img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
-            <div class="name">Junjun He</div>
-            <div class="belong">Shanghai AI Laboratory</div>
-          </div>
-          <div class="card">
-            <img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile">
-            <div class="name">Hoon Cho</div>
-            <div class="belong">Broad Institute of MIT and Harvard</div>
-          </div>
-          <div class="card">
-            <img src="@/assets/profile/donglai_sq.png" alt="" class="profile">
-            <div class="name">Donglai Wei</div>
-            <div class="belong">Boston College</div>
-          </div>
-          <div class="card">
-            <img src="@/assets/profile/Jin_Ye.jpg" alt="" class="profile">
-            <div class="name">Jin Ye</div>
-            <div class="belong">Shanghai AI Laboratory</div>
-          </div>
-          <div class="card">
-            <img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile color-profile">
-            <div class="name">Jing Ke</div>
-            <div class="belong">Shanghai Jiao Tong University</div>
-          </div>
-        </div>
-      </div>
-  </div>
-  <div v-else>
     <div id="organizing-team">
         <h2>Organizing Team</h2><hr>
         <div class="card-container">
@@ -100,7 +46,6 @@
           </div>
         </div>
       </div>
-  </div>
   <div v-if="currentYear === '2023'">
     <div id="program-committee">
 			<h2>Program Committee</h2><hr>
