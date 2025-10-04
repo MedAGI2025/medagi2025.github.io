@@ -10,7 +10,7 @@
             <img :src="require(`@/assets/photo/${image}`)" loading="lazy" decoding="async" class="gallery-photo" />
           </div>
         </div>
-        <h3>We sincerely thank Yanqi Cheng from the University of Cambridge for taking some of these photos.</h3><hr>
+        <h3>We sincerely thank Yanqi Cheng from the University of Cambridge and Dr Xiaoyu Ren from the Chinese Academy of Sciences for taking some of these photos.</h3><hr>
     </div>
   </template>
 
@@ -22,7 +22,7 @@ export default {
     };
   },
   created() {
-    for (let i = 1; i <= 29; i++) {
+    for (let i = 1; i <= 32; i++) {
       this.imageList.push(`${i}.jpg`); // Add image file names to the array
     };
     this.fetchData();
