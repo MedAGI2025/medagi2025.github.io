@@ -2,11 +2,11 @@
   <div id="home">
     <div id="closing">
       <div id="thankyou-message">
-        <div class="description">
-          To access the MedAGI 2025 proceedings, please visit  
-              <a href="https://link.springer.com/book/10.1007/978-3-032-07845-2" target="_blank"> this link </a>.
-        </div>
-        <span id="thankyou">MedAGI 2025 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
+        <span id="thankyou">To access the MedAGI 2025 proceedings, please visit  
+              <a href="https://link.springer.com/book/10.1007/978-3-032-07845-2" target="_blank"> this link</a>. 
+              <br>
+              <br>
+              MedAGI 2025 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
         <img src='@/assets/photo/1.jpg' alt="" class="photo">
         <img src='@/assets/photo/19.jpg' alt="" class="photo">
         <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
@@ -90,7 +90,7 @@
     font-size: 24px;
     line-height: 1.4;
     color: #000;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     margin-top: 60px;
@@ -157,6 +157,13 @@
     font-size: 40px;
   }
 
+  h2 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   .main-title-deco {
     width: 28px;
     height: 1px;
@@ -202,7 +209,7 @@
     font-size: 16px;
     line-height: 1.4;
     color: #000;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -264,6 +271,13 @@
     font-size: 36px;
   }
 
+  h2 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
   .main-title-deco {
     width: 28px;
     height: 1px;
@@ -309,7 +323,7 @@
     font-size: 12px;
     line-height: 1.3;
     color: #000;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     margin-top: 24px;
@@ -375,6 +389,13 @@
     font-size: 24px;
   }
 
+  h2 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
   .main-title-deco {
     width: 28px;
     height: 1px;
