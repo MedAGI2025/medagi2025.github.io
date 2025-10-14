@@ -57,7 +57,7 @@
       <!-- Oral Sessions -->
       <div id="oral">
         <h2>Oral Sessions</h2><hr>
-        <table id="oral-table" class="table">
+        <table class="table">
           <tr v-for="(item, index) in oral1" :key="index">
             <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:10 - 15:00)</td>
               <td class="oral-content">

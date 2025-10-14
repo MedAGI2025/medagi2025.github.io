@@ -2,6 +2,10 @@
   <div id="home">
     <div id="closing">
       <div id="thankyou-message">
+        <div class="description">
+          To access the MedAGI 2025 proceedings, please visit  
+              <a href="https://link.springer.com/book/10.1007/978-3-032-07845-2" target="_blank"> this link </a>.
+        </div>
         <span id="thankyou">MedAGI 2025 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
         <img src='@/assets/photo/1.jpg' alt="" class="photo">
         <img src='@/assets/photo/19.jpg' alt="" class="photo">
