@@ -1,11 +1,17 @@
 <template>
     <div id="program">
+      <h2>🔥🌟 To access the MedAGI 2025 proceedings, please visit  
+          <a href="https://link.springer.com/book/10.1007/978-3-032-07845-2" target="_blank"> this link</a>. 🌟🔥
+        </h2>
       <!-- Main Title -->
       <div class="main-title">
           <h1>Program</h1>
           <div class="main-title-deco"></div>
       </div>
       <!-- Main Title End -->
+      <!-- <span id="thankyou"> -->
+        
+        <!-- </span> -->
        <!-- Program Schedules -->
       <div id="schedule">
         <h2>Schedule</h2><hr>
